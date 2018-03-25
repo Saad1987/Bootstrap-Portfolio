@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 60px;
+            
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+           
+        }
+
+        .jumbotron {
+
+            background-color: lightseagreen;
+            /* background-image: url("http://aldingas.com/wp-content/uploads/2015/09/blue-green-modern-background.jpg");
+background-repeat: no-repeat; */
+        }
+
+       
+    </style>
+    <title>My Bootstrap Portfolio</title>
+</head>
+
+<body>
+
+        <header>
+                <!-- fixed-top -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="index.html">
+                        <h1 class="text-success display-4">Saad Mourtada</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">
+                                    <button class="btn btn-outline-success my-2 my-sm-0">
+                                        About
+                                    </button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">
+                                    <button class="btn btn-outline-success my-2 my-sm-0">
+                                        Portfolio
+                                    </button>
+                                </a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">
+                                    <button class="btn btn-outline-success my-2 my-sm-0">
+                                        Contact
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+        
+                </nav>
+        
+        
+        
+            </header>
+
+    <main>
+
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <div class="jumbotron">
+
+                <form>
+                    <div class="form-group">
+                        <label for="Inputname">Please Enter your name</label>
+                        <input type="text" class="form-control" id="Inputname" aria-describedby="nameHelp" placeholder="Enter your name here">
+                        <small id="emailHelp" class="form-text text-muted">Your name is confidential and protected !</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail">Email adress</label>
+                        <input type="password" class="form-control" id="InputEmail" placeholder="Enter your email here">
+                        <small id="emailHelp" class="form-text text-muted">Your Email is confidential and protected !</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="Select">Reason for contacting me ?</label>
+                        <select class="form-control" id="Select">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleTextarea">Message</label>
+                        <textarea class="form-control" id="exampleTextarea" placeholder="Enter your message here" rows="12"></textarea>
+                        <small id="emailHelp" class="form-text text-muted">Your message is confidential and protected !</small>
+                    </div>
+
+                    <br>
+                    <button type="submit" class="btn btn-dark text-success">Submit</button>
+                </form>
+
+            </div>
+
+            <br>
+
+
+        </div>
+
+
+
+    </main>
+
+    <!-- I could use :  <footer class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom"> to fixed to the buttom but I don't want it fixe just sticky ! -->
+
+    <footer class="footer navbar-dark bg-dark">
+
+        <div class="container">
+            <span class="font-weight-bold text-center text-uppercase text-success ">
+                <span class="d-block mx-auto my-auto"> Copyright</span>
+            </span>
+        </div>
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
